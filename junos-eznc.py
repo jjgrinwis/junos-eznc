@@ -7,7 +7,7 @@ from pprint import pprint as pp
 
 # define device object and use open method to connect
 # netconf used to connect to device
-dev = Device(host='vsrx04.t-i.demo',user='ncs',password='UCS@dmin01')
+dev = Device(host='vsrx04.t-i.demo',user='ncs',password='xxxxx')
 dev.open()
 
 # now bind this table to dev and get all routes from this device

@@ -4,7 +4,7 @@ from jnpr.junos.device import Device
 from jnpr.junos.utils.config import Config
 
 # first create netconf device object and then open connection
-device = Device(host='vsrx04.t-i.demo',user='ncs',passwd="UCS@dmin01")
+device = Device(host='vsrx04.t-i.demo',user='ncs',passwd="xxxxx")
 device.open()
 
 # Now create config object and load candidate configuration
